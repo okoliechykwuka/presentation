@@ -253,7 +253,7 @@ const slides = [
             <p>Blog, vlog, or podcast about your field</p>
           </div>
         </div>
-        <img src="/api/placeholder/800/200" alt="Personal branding illustration" className="rounded-lg shadow-lg mx-auto mt-4" />
+        <img src="src\components\images\brand.jpg" width={600} height={600} alt="Personal branding illustration" className="rounded-lg shadow-lg mx-auto mt-4" />
       </div>
     )
   },
@@ -281,6 +281,18 @@ const slides = [
           </div>
         </div>
         <p className="text-lg mt-4">Adapting to these trends will position you for long-term success in the evolving freelance landscape.</p>
+      </div>
+    )
+  },
+  {
+    title: "Question?",
+    content: (
+      <div className="flex flex-col items-center p-8 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-lg shadow-lg">
+        <h2 className="text-4xl font-bold text-orange-600 mb-4">Do you have any questions?</h2>
+        <p className="text-xl text-gray-800">Feel free to ask anything about freelancing or the presentation.</p>
+        <div className="mt-8">
+          <Button className="bg-orange-500 text-white hover:bg-orange-600">Ask a Question</Button>
+        </div>
       </div>
     )
   }
